@@ -1,0 +1,12 @@
+ALGORITHM
+
+1. Data Cleaning
+	- Converted Dates to Quarterly periods.
+	- Converted Duration to Seconds count using regular expressions.
+	- Category was concerted to numerical variables using label encoder
+	- Some Rows contained "F" letter. So those rows were removed.
+	- All data was converted to int64
+2. Data Training
+	- Trained the data on Random Forest as a regressor using 1000 trees.
+3. Prediction
+	- Made ad_views prediction using the developed model.
